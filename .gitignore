@@ -1,3 +1,2 @@
-# data フォルダを Git で無視する
 data/
-data/training_extra.csv
+prepricess_results/
