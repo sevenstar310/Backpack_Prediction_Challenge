@@ -1,6 +1,10 @@
-# Poc_ishiyaseika
+# Backpack Prediction Challenge
 
 kaggle コンペ詳細: https://www.kaggle.com/competitions/playground-series-s5e2
+
+目的: Predict the price of backpacks given various attributes.
+
+評価指標: RMSE = \sqrt{\frac{1}{N} \sum_{i=1}^{N} (y_i - \hat{y}_i)^2}
 
 ### ディレクトリ構成
 ```
@@ -26,7 +30,7 @@ kaggle コンペ詳細: https://www.kaggle.com/competitions/playground-series-s5
 |ファイル名|説明|
 |---|---|
 |P1|train,testをlabel encoding，欠損値は平均で埋める|
-|P1|train,test,extraをlabel encoding，欠損値は平均で埋める|
+|P2|train,test,extra_dataをlabel encoding，欠損値は平均で埋める|
 
 
 ### MLモデル
@@ -40,6 +44,5 @@ kaggle コンペ詳細: https://www.kaggle.com/competitions/playground-series-s5
 |---|---|
 |P1_ML1|39.12364|
 
-### データから得た知見
-|知見|ネクストアクション|
-|---|---|
+### memo
+
