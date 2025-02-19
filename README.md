@@ -43,6 +43,7 @@ kaggle コンペ詳細: https://www.kaggle.com/competitions/playground-series-s5
 |ファイル名|RMSE|
 |---|---|
 |P1_ML1|39.12364|
+|P2_ML1|39.10758|
 
 ### memo
 
